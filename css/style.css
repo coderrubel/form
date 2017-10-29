@@ -1,0 +1,484 @@
+body{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-family: Ubuntu-Regular;
+	color: #333333;
+	background: white;
+}
+
+ul li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+h1,h2,h3,h4,h5,h6,ul,p{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: Ubuntu-Regular;
+	src:url(../fonts/Ubuntu-Regular.ttf);
+}
+@font-face{
+	font-family: Ubuntu-Light;
+	src:url(../fonts/Ubuntu-Light.ttf);
+}
+@font-face{
+	font-family: Ubuntu-Bold;
+	src:url(../fonts/Ubuntu-Bold.ttf);
+}
+@font-face{
+	font-family: Ubuntu-Medium;
+	src:url(../fonts/Ubuntu-Medium.ttf);
+}
+
+
+.main{
+	width: 1198px;
+	border-right: 1px solid #efefef;
+	border-left: 1px solid #efefef;
+	margin: 0 auto;
+}
+
+
+.top_menu_main{
+	width: 100%;
+	height: auto;
+	padding-bottom: 4px;
+	margin-top: 0px;
+}
+
+.top_menu{
+	margin-top: 20px;
+}
+.top_menu ul{
+
+}
+.top_menu ul li{
+	float: left;  
+}
+
+.top_menu ul li:nth-child(2), .top_menu ul li:nth-child(4), .top_menu ul li:nth-child(6), .top_menu ul li:nth-child(8), .top_menu ul li:nth-child(10), .top_menu ul li:nth-child(12), .top_menu ul li:nth-child(14), .top_menu ul li:nth-child(16){
+	width: 1px;
+	height: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	background: #ababab;
+}
+
+.top_menu ul li:nth-child(1){
+
+}
+.top_menu ul li a{
+	text-decoration: none;
+	color: #1b1b1b;
+	font-family: Ubuntu-Medium;
+	padding: 6px 13px;
+	transition: .5s;
+}
+
+.top_menu ul li a:hover, #nav ul li.active a{
+	background: #F8981D;
+}
+
+
+.banner img{
+
+}
+
+.menu_main{
+	width: 100%;
+	height: auto;
+	padding-bottom: 34px;
+}
+#menu{
+	box-shadow: 0 5px 12px #efefef;
+}
+
+.menubar {
+    border: 1px solid #efefef;
+    height: 75px;
+    text-decoration: none;
+    right: 0.0em;
+    top: 10.2727em;
+    width: 10.7273em;
+}
+.menubar a {
+    display: table;
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    text-decoration:none;
+}
+
+.menubar a:hover{
+    color: #fff !important;
+    background: linear-gradient(#F8981D,#F8981D,#F8981D);
+}
+.menubar a span {
+    display: table-cell;
+    font-size: 16px;
+    font-family: Ubuntu-Regular;
+    vertical-align: middle;
+}
+
+/************************** trnl *****************************/
+
+#google_translate_element{margin-left: 56px;}
+#google_translate_element select{
+  background: #F8981D;
+  color: #fff;
+  border: white;
+  outline: none;
+  padding: 3px 12px;
+  cursor: pointer;
+}
+.gtrl{
+	width: 360px;
+	height: 40px;
+	background-image: url(../images/gtrnl.png);
+	background-size: cover;
+    background-position: center bottom;
+	background-repeat: no-repeat; 
+	margin-bottom: 20px;
+	text-align: center;
+	line-height: 40px;
+}
+.goog-logo-link{display: none;}
+
+/****************************************************** menu ends here ******************************************************/
+
+#wowslider-container1{
+	border: 1px solid #f3f3f3;
+}
+
+
+
+.news {
+	width: 100%;
+	height: 40px;
+	background: #F8981D;
+	margin-bottom: 10px;
+}
+.news h4{
+	font-size: 18px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+}
+
+.news_img{
+	width: 360px;
+    height: 229px;
+    border: 1px solid #F8981D;
+}
+
+
+.click_list{
+	width: 360px;
+	height: 229px;
+	background-image: url(../images/ad1.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 65px 25px 0 0;
+	margin-top: 30px;
+	border: 1px solid #F8981D;
+}
+
+.click_list ul li{
+	font-size: 14px;
+	color: #fff200;
+	font-family: Ubuntu-Bold;
+
+}
+
+.click_list_ad a:hover, .click_list_ad a{
+	text-decoration: none;
+}
+
+
+
+.wlcm{
+	padding-top: 30px;
+}
+
+.wlcm h5{
+	font-size: 17px;	
+	font-weight: normal;
+	font-family: Ubuntu-Medium;
+	margin-bottom: 6px;
+}
+.wlcm h5 span{
+	font-family: Ubuntu-Bold;
+	color: #F8981D;
+}
+.wlcm p{
+	text-align: justify;
+	font-family: Ubuntu-Regular;
+}
+.wlcm p a{
+	color: #F8981D;
+	text-decoration: underline;
+}
+
+
+
+.slider_second{
+	padding: 29px 0 23px;
+}
+.slider_second iframe{
+	border: 1px solid #f3f3f3;
+}
+
+
+.exibitor_cmpny h5, .sponsor h5{
+	font-size: 17px;
+	font-family: Ubuntu-Bold;
+}
+
+.exibitor_cmpny h5 span, .sponsor h5 span{
+	color: #F8981D;
+}
+
+.add_box{
+	width: 100%;
+	height: 130px;
+	border: 1px solid #efefef;
+	padding-top: 4px;
+	margin-top: 16px;
+}
+
+
+.sponsor h5{
+	margin-top: 28px;
+}
+.sponsor_body{
+	margin-top: 17px;
+	border: 1px solid #efefef;
+	padding: 10px;
+}
+.sponsor_body img{
+	
+}
+.sponsor_img{
+	margin-left: 57px;
+}
+
+/***************************************************************** col-8 ends here *****************************************************************/
+
+
+.fb{
+	margin-top: 30px;
+	width: 100%;
+}
+.fb iframe{
+	width: 360px;
+	border-color: ;
+}
+
+
+.side_ad{
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+.side_ad a{
+	text-decoration: none;
+}
+.side_ad_img{
+	width: 100%;
+	height: 80px;
+	background-image: url(../images/ad-here1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-top: 10px;
+}
+.side_ad_img2{
+	background-image: url(../images/ad-here2.jpg);
+}
+.side_ad_img3{
+	background-image: url(../images/ad-here3.jpg);
+}
+
+.side_ad_img h5{
+	color: red;
+	line-height: 80px;
+	text-align: center;
+}
+
+/**************************************************************** support start ****************************************************************/
+
+.support{
+	width: 100%;
+	height: auto;
+	border-top: 1px dotted #ababab;
+	padding: 20px 0 20px;
+	margin-top: 5px;
+}
+
+.sup_content{
+	margin-top: 8px;
+	border-right: 1px solid #e0e0e0;
+}
+.sup_content5{
+	border-right: none;
+}
+.suppo h5{
+	font-size: 16px;
+	font-family: Ubuntu-Medium;
+	color: #F8981D;
+}
+
+
+
+
+.footer{
+	width: 100%;
+	height: auto;
+	padding: 0px 0 15px;
+
+}
+
+.footer_bdr{
+	padding-top: 15px;
+	border-top: 1px dotted #ababab;
+}
+
+.footer p{
+	margin-top: 7px;
+}
+.footer p a{
+	color: #656565;
+	font-family: Ubuntu-Bold;
+	transition: .5s;
+}
+.footer p a:hover{text-decoration: none; color: #F8981D;}
+
+#social-link{
+	float: right;
+}
+#social-link .fa{
+	z-index: 1;
+	color: #656565;
+	text-align: center;
+	line-height: 25px;
+	margin-right: 3px;
+}
+#social-link a:hover .fa{
+	color: #fff;
+}
+#social-link a{
+	font-size: 14px;
+	width: 28px;
+	height: 28px;
+	color: #EEEEEE;
+	background:  transparent;
+	margin: 0px 2px;
+	display: inline-block;
+	text-align: center;
+}
+.icon_over{
+	position: relative;
+	border: 1px solid #656565;
+	width: 28px;
+    height: 28px;
+	float: left;
+	overflow: hidden;
+	margin-left: 10px;
+}
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #F8981D;
+	top: 100%;
+	transition: .4s;
+	z-index: -1;
+	
+}
+.icon_over:hover .overlay{top: 0;}
+
+/*#social-link a:nth-child(1):hover{
+	background: #55ACEE;
+}
+#social-link a:nth-child(2):hover{
+	background: #4862A3;
+}
+#social-link a:nth-child(3):hover{
+	background: #1C87BD;
+}
+#social-link a:nth-child(4):hover{
+	background: #DD4E42;
+}
+#social-link a:nth-child(5):hover{
+	background: #DA2724;
+}*/
+
+
+#scroll-up{	
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    transition: .5s;
+    border: 1px solid #F8981D;
+}			
+
+#scroll-up span{
+	font-size: 27px;
+    color: #fff;
+    padding-top: 5px;
+    width: 40px;
+    height: 40px;
+    background: #F8981D;
+    border-radius: 50%;
+    margin-top: 4px;
+}
+#scroll-up:hover{
+	background: #F8981D;
+}
+
+
+/*************************************************************footer ends here *************************************************************/
+
+.event{
+	position: absolute;
+	top: 60px;
+	left: 0;
+	text-align: center;
+}
+
+
+.exhibilist ul{
+	width: 340px;
+}
+.exhibilist ul li .fa{
+	font-size: 10px;
+	color: #F8981D;
+	margin-right: 8px;
+	margin-top: 4px;
+	float: left;
+}
+.exhibilist ul li{
+	font-size: 13px;
+}
+.exhibilist ul li p{
+	width: 320px;
+	float: left;
+}
+
+/*********************************************************************** home page ends here ***********************************************************************/
+
+

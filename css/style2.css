@@ -1,0 +1,680 @@
+.about_page{
+	width: 100%;
+	height: auto;
+	padding: 5px 0 15px;
+}
+.about_content:nth-child(1){margin-top: 8px;}
+.about_content{
+	margin-top: 20px;
+}
+.about_content h5{
+	font-family: Ubuntu-Bold;
+	margin-bottom: 8px;
+	font-size: 17px;
+}
+.about_content h5 span{
+	color: #F8981D;
+}
+.about_content p{
+	font-size: 15px;
+}
+
+.exports_record{
+	margin-bottom: 25px;
+}
+.exports_record h4{
+	font-size: 22px;
+	color: #F8981D;
+	margin-bottom: 10px;
+}
+
+.exports_record_text, .industry_overview_text, .exibitor_profile_text{
+	width: 100%;
+	height: auto;
+	padding: 15px;
+	border-top: 1px dotted #ababab;
+	border-bottom: 1px solid #ababab;
+	border-right: 1px solid #ababab;
+	border-left: 1px solid #ababab;
+	float: left;
+	margin-bottom: 30px;
+}
+
+.exports_record_text p, .industry_overview_text p{
+	text-align: justify;
+
+}
+.industry_overview_text h4{
+	font-size: 18px;
+	color: #F8981D;
+	padding-bottom: 15px;
+}
+
+.upper_view{
+	margin-bottom: 41px;
+}
+.upper_view img{
+	float: left;
+	margin-right: 10px;
+}
+.upper_view p{
+	
+}
+
+.bottom_view p{
+	max-width: 490px;
+	float: left;
+	margin-top: 35px;
+}
+.bottom_view img{
+	float: right;
+}
+
+/******************************************************* about ends here *******************************************************/
+
+.visitor{
+	width: 339px!important;
+}
+
+.exibitor_page{
+
+}
+
+.exibitor_profile h4{
+	margin-top: 0;
+}
+.exibitor_profile h4 span{
+	color: #333333;
+}
+
+.exibitor_profile_text img{
+	margin-bottom: 30px;
+}
+.repor img{
+	margin-bottom: 0;
+}
+
+.exi_pro{
+	width: 339px;
+	margin-left: 20px;
+}
+
+.exi_pro li .fa, .catalog table tr td ul li .fa{
+	color: #F8981D;
+	font-size: 11px;
+	float: left;
+	margin-right: 8px;
+	margin-top: 5px;
+}
+.exi_pro li p, .catalog table tr td ul li p{
+	width: 314px;
+	float: left;
+	margin-bottom: 6px;
+}
+
+.exi_pro li, .catalog table tr td ul li{
+	margin-bottom: 6px;
+	font-size: 13px;
+	clear: both;
+}
+
+
+.visit_profile_text h2{
+	font-size: 20px;
+	color: #F8981D;
+	padding-bottom: 10px;
+}
+
+.visit_profile_text p{
+	padding-top: 12px;
+}
+
+
+.visit_pro_list h2{
+	font-size: 20px;
+	color: #F8981D;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.visit_pro_list{
+
+}
+
+
+
+/***************************************************************** visitor ends here *****************************************************************/
+
+
+.about_us h4{
+	font-size: 16px;
+}
+.about_us p{
+
+}
+
+.exibitor_profile_text p{
+	font-size: 13px;
+}
+
+
+
+.contact{
+	width: 100%;
+	height: auto;
+}
+
+.contact address span{
+	font-size: 20px;
+	color: #F8981D;
+	font-family: Ubuntu-Bold;
+}
+
+.contact address{
+	margin-left: 52px;
+	margin-top: 30px;
+}
+
+.contact address table tr td{margin-bottom: 2px; font-family: Ubuntu-Light;}
+.contact address table tr td:nth-child(1) .fa-phone{font-size: 14px; margin-top: 3px;}
+.contact address table tr td:nth-child(1) .fa-skype{font-size: 16px; margin-top: 1px;}
+.contact address table tr td:nth-child(1) .fa-mobile{font-size: 19px; margin-top: 2px;}
+.contact address table tr td:nth-child(1){color: #F8981D; float: right; margin-top: 2px;}
+.contact address table tr td:nth-child(2){padding-left: 6px;}
+.contact address table tr td:nth-child(3){
+	padding-left: 10px;
+	color: #F8981D;
+}
+
+
+.contact-img{
+  margin-top: 30px;
+  border-bottom: 1px dotted;
+}
+
+.contact-img img{
+  padding-left: 34%;
+  margin-bottom: 0;
+}
+
+
+/************************************************************** about - contact ends here **************************************************************/
+
+
+.registration{
+	width: 800px;
+	height: auto;
+	padding-bottom: 70px;
+	margin: 0 auto;
+}
+.registration h2{
+	font-size: 30px;
+	color: #F8981D;
+	font-family: Ubuntu-Bold;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+
+.form_body{
+	width: 800px;
+}
+
+.log_form{
+	width: 350px;
+	height: 44px;
+	background: #efefef;
+	margin-top: 18px;
+}
+
+.log_form .fa{
+	font-size: 22px;
+	color: #9d9e9e;
+	margin: 10px 10px 0 20px;
+	float: left;
+}
+.log_form:nth-child(4) .fa{
+	font-size: 20px;
+}
+
+.form_control{
+	width: 300px;
+	height: 44px;
+	border: none;
+	background: transparent;
+	color: #1b1b1b;
+	outline: none;
+	float: left;
+}
+
+.message{
+	width: 350px;
+	height: 150px;
+	outline: none;
+	padding: 15px;
+	margin-top: 18px;
+	margin-bottom: 18px;
+	border: 1px solid #e0e0e0;
+}
+
+.select_radio{
+	height: auto;
+}
+.select_radio h5{
+	font-size: 13px;
+	margin-bottom: 5px;
+}
+.select_radio input{
+	float: left;
+}
+
+.form_body select{
+	width: 350px;
+	height: 44px;
+	background: #efefef;
+	padding-left: 30px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+
+.submit_form{
+	width: 100px;
+	height: 36px;
+	background: #efefef;
+	border: 1px solid #e0e0e0;
+	border-radius: 0;
+	transition: .5s;
+}
+.submit_form:hover{
+	background: #F8981D;
+	color: white;
+	border: 1px solid #F8981D;
+}
+
+/************************************************************ form ends here ************************************************************/
+
+.down ul li{
+	width: 580px;
+	text-align: justify;
+	margin-bottom: 14px;
+}
+
+.down ul li .fa{
+	color: #F8981D
+}
+
+.down ul li a{
+	text-decoration: underline;
+	color: #F8981D;
+	font-family: Ubuntu-Bold;
+}
+
+/*********************************************************** download ends here ***********************************************************/
+
+.accommodation{margin-bottom: 30px;}
+
+.accommodation h4{
+	padding-top: 14px;
+	color: #5a5a5a;
+	font-family: Ubuntu-Regular;
+}
+
+.accommodation p{
+	margin-top: 10px;
+	font-family: Ubuntu-Regular;
+	text-align: justify;
+}
+
+.hoteladdress{
+	border-top: 1px dotted #ababab;
+}
+.hotelinfo{
+	margin: 60px 0;
+	border-top: 1px dotted #ababab;
+}
+
+.hotelinfo img{
+	width: 100%;
+	margin-top: 50px;
+	box-shadow: 1px 4px 18px 3px #888888;
+}
+
+
+/*********************************************************** Accommodation ends here ***********************************************************/
+
+.fact_sheet_top table tr td h1{
+	font-size: 28px;
+	font-family: Ubuntu-Medium;
+	color: #252625;
+	margin-bottom: 6px;
+}
+.fact_sheet_top table tr td{
+	padding: 10px;
+}
+.fact_sheet_top h5{
+	font-size: 16px;
+	font-family: Ubuntu-Bold;
+}
+
+
+
+.prices{
+	padding-top: 8px;
+}
+.prices caption, .advertise caption{
+	font-size: 16px;
+	font-family: Ubuntu-Medium;
+}
+
+.prices table tr th, .advertise table tr th, .spe_interior table tr th{
+	font-family: Ubuntu-Medium;
+	text-align: center;
+	height: 25px;
+}
+.prices table tr td{
+	width: 675px;
+	padding: 10px;
+	vertical-align: top;
+}
+.prices table tr td:nth-child(2){
+	width: 220px;
+	vertical-align: middle;
+}
+.prices table tr td:nth-child(3){
+	width: 245px;
+	vertical-align: middle;
+	text-align: center;
+}
+.prices table tr td h4, .advertise table tr td h4, .catalog table tr td h4, .faci_serve table tr td h4{
+	font-size: 15px;
+	font-family: Ubuntu-Medium;
+}
+
+
+
+.advertise{
+	padding-top: 8px;
+}
+.advertise table tr th{
+	height: 46px;
+}
+.advertise table tr td{
+	background: ;
+	width: 370px;
+	padding: 10px;
+	vertical-align: top;
+}
+.advertise table tr td:nth-child(2){
+	background: ;
+	width: 200px;
+	padding: 10px;
+	vertical-align: middle;
+	text-align: center;
+}
+.advertise table tr td:nth-child(3){
+
+}
+.advertise table tr td:nth-child(4){
+	background: ;
+	width: 200px;
+	padding: 10px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+
+.addi_facii, .spe_interior{
+	padding-top: 20px;
+}
+.addi_facii table tr td, .spe_interior table tr td{
+	text-align: center;
+	width: 400px;
+	padding: 10px;
+}
+.addi_facii table tr td:nth-child(2), .spe_interior table tr td:nth-child(2){
+	width: 740px;
+	padding-left: 40px;
+	text-align: left;
+	color: red;
+}
+.spe_interior table tr td:nth-child(2){
+	color: #333333;
+}
+.spe_interior_btn{
+	padding: 10px 25px;
+	background: transparent;
+	border-bottom: 1px solid #656565;
+	border-radius: 20px;
+	color: #656565;
+	transition: .4s;
+}
+.spe_interior_btn:hover, .spe_interior_btn:focus{
+	color: #656565;
+	text-decoration: none;
+}
+.spe_interior_btn:focus{
+	color: blue;
+	border-color: blue;
+}
+.spe_interior_btn:hover:after{
+	content:"\f06e";
+	font: 14px fontawesome;
+	margin-left: 8px;
+}
+
+
+
+.catalog{
+	padding: 33px 0 0 0;
+}
+.catalog table tr td ul li .fa{
+	font-size: 9px;
+}
+.catalog table tr td ul li p{
+	width: auto;
+	font-size: 13px;
+}
+
+.catalog table tr td:nth-child(1){
+	background: ;
+	text-align: center;
+	width: 300px;
+	padding: 10px;
+}
+.catalog table tr td:nth-child(2){
+	background: ;
+	width: 840px;
+	vertical-align: top;
+	padding: 10px 10px 10px 40px;
+}
+
+
+
+.catalog_img{
+	position: relative;
+	width: 100%;
+    height: 100%;
+	overflow: hidden;
+}
+.catalog_img img{width: 100%;
+                  height: 100%;}
+.catalog_img2 img{
+	width: 140px;
+	height: 60px;
+	margin-top: 5px;
+}
+
+#overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: .7;
+	bottom: 0;
+	left: 0px;
+	top: 0px;
+	transition: 1s;
+	transform: scale(0);
+}
+.catalog_img2 #overlay{
+	width: 140px;
+	height: 60px;
+	left: 70px;
+    top: 5px;
+}
+
+#overlay h6{color:  #F8981D;
+			font-size: 22px;
+            margin-top: 15px;
+        	text-align: center;}
+
+#overlay i{
+	font-size: 60px;
+	color: #F8981D;
+	margin-top: 25px;
+}
+.catalog_img2 #overlay i{
+	font-size: 25px;
+	margin-top: 19px;
+}       
+
+.catalog_img:hover #overlay{transform: scale(1);
+                             cursor: pointer;}
+
+
+
+.modal {
+	background: rgba(0,0,0,.3);
+}
+.modal-content {
+    position: relative;
+    width: auto;
+	background-color: transparent;
+	border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    margin: 40px auto;
+}
+.modal-body {
+    padding: 0px;
+}
+
+.close_up .close{
+	 margin-right: -28px;
+    font-size: 40px;
+    margin-top: -12px;
+    color: #e0e0e0;
+    opacity: 1;
+    transition: .5s;
+}
+.close_up .close:hover{
+	color: #333333;
+	outline: none;
+}
+
+
+
+
+.fact_sheet{
+	padding: 37px 0 36px;
+}
+.faci_serve table caption, .addi_facii table caption, .spe_interior table caption{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.faci_serve table tr{
+	border: 1px solid #e0e0e0;
+}
+.faci_serve table tr th{
+	background: #dddddd;
+	text-align: center;
+	height: 50px;
+}
+.faci_serve table tr td p{
+
+}
+.faci_serve table tr td span{
+
+}
+.faci_serve table tr td:nth-child(1){
+	background: #f0f0f0;
+	text-align: center;
+	width: 80px;
+}
+.faci_serve table tr td:nth-child(2){
+	background: #f5f5f5;
+	width: 660px;
+	padding: 10px;
+	vertical-align: top;
+}
+.faci_serve table tr td:nth-child(3){
+	background: #fff;
+	width: 200px;
+	text-align: center;
+}
+.faci_serve table tr td:nth-child(4){
+	background: #f1f1f1;
+	width: 200px;
+	text-align: center;
+}
+
+
+.fact_img{
+	position: relative;
+	width: 200px;
+	height: 90px;
+	overflow: hidden;
+	line-height: 90px;
+}
+
+.fact_img img{}
+
+.fact_overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(119,192,68,.3);
+	right: -100%;
+	top: 0;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.fact_img:hover .fact_overlay{
+	right: 0;
+}
+
+.fact_overlay h5{
+	line-height: 90px;
+	color: #444444;
+	font-size: 16px;
+	text-align: left;
+}
+
+
+
+
+.cnf_agent{
+	padding-bottom: 50px;
+}
+.cnf_agent table tr td{
+	width: 1140px;
+	padding: 10px 10px 10px 20px;
+}
+.cnf_agent table tr td h6{
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 24px;
+	width: 565px;
+	border-bottom: 1px dotted #ababab;
+	padding-bottom: 6px;
+}
+.cnf_agent table tr td ul li{
+	float: left;
+}
+.cnf_agent table tr td ul li:nth-child(2){
+	margin-left: 110px;
+}
